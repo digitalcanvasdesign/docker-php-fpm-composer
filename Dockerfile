@@ -23,7 +23,7 @@ RUN apt-get update \
     && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false $BUILD_DEPENDENCIES \
     && apt-get clean
 
-EXPOSE 9000
+EXPOSE 9001
 
 CMD ["php-fpm"]
 
