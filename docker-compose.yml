@@ -2,5 +2,5 @@ version: "2"
 
 services:
   php-fpm-composer:
-    image: digitalcanvasdesign/php71-fpm-composer
+    image: digitalcanvasdesign/php-fpm-composer
     build: ./
